@@ -15,7 +15,13 @@
       "x": 0,
       "y": 0,
       "z": 0
-    }
+    },
+    "light": {
+      "x": 0,
+      "y": 0.5,
+      "z": 0
+    },
+    "embedID": ["eHiIYRpZfXY", "tGXIQR89-JE", "epYvo9YwsGg"]
   },
   {
     "title": "2",
@@ -33,7 +39,13 @@
       "x": 0,
       "y": 0,
       "z": 0
-    }
+    },
+    "light": {
+      "x": 0,
+      "y": 0.5,
+      "z": 0
+    },
+    "embedID": ["eHiIYRpZfXY", "tGXIQR89-JE", "epYvo9YwsGg"]
   },
   {
     "title": "View A",
@@ -47,7 +59,13 @@
       "x": 0,
       "y": 0.5,
       "z": 0
-    }
+    },
+    "light": {
+      "x": 0,
+      "y": 0.5,
+      "z": 0
+    },
+    "embedID": ["eHiIYRpZfXY", "tGXIQR89-JE", "epYvo9YwsGg"]
   },
   {
     "title": "View B",
@@ -60,7 +78,13 @@
       "x": 0,
       "y": -1.12,
       "z": 0
-    }
+    },
+    "light": {
+      "x": 0,
+      "y": 0.5,
+      "z": 0
+    },
+    "embedID": ["eHiIYRpZfXY", "tGXIQR89-JE", "epYvo9YwsGg"]
   },
   {
     "title": "push",
@@ -73,7 +97,13 @@
       "x": 0,
       "y": 0.5,
       "z": 0
-    }
+    },
+    "light": {
+      "x": 0,
+      "y": 0.5,
+      "z": 0
+    },
+    "embedID": ["eHiIYRpZfXY", "tGXIQR89-JE", "epYvo9YwsGg"]
   },
   {
     "title": "pull",
@@ -86,9 +116,71 @@
       "x": 0,
       "y": 0,
       "z": 1.1
-    }
+    },
+    "light": {
+      "x": 0,
+      "y": 0.8,
+      "z": -1.3
+    },
+    "embedID": ["eHiIYRpZfXY", "tGXIQR89-JE", "epYvo9YwsGg"]
   },
-
+  {
+    "title": "Back",
+    "position": {
+      "x": 0,
+      "y": 1,
+      "z": 0.58
+    },
+    "lookAt": {
+      "x": 0,
+      "y": 0,
+      "z": -1.57
+    },
+    "light": {
+      "x": 0,
+      "y": 0.5,
+      "z": 0
+    },
+    "embedID": ["7gIEQEacQ2M", "0j012aZN9V4", "M6q4LmftQF8"]
+  },
+  {
+    "title": "Biceps",
+    "position": {
+      "x": 0,
+      "y": 1,
+      "z": 0.58
+    },
+    "lookAt": {
+      "x": 0,
+      "y": 0,
+      "z": -1.57
+    },
+    "light": {
+      "x": 0,
+      "y": 0.5,
+      "z": 0
+    },
+    "embedID": ["7gIEQEacQ2M", "0j012aZN9V4", "M6q4LmftQF8"]
+  },
+  {
+    "title": "Forearms",
+    "position": {
+      "x": 0,
+      "y": 1,
+      "z": 0.58
+    },
+    "lookAt": {
+      "x": 0,
+      "y": 0,
+      "z": -1.57
+    },
+    "light": {
+      "x": 0,
+      "y": 0.5,
+      "z": 0
+    },
+    "embedID": ["7gIEQEacQ2M", "0j012aZN9V4", "M6q4LmftQF8"]
+  },
   {
     "title": "Trapezoid",
     "position": {
@@ -100,6 +192,259 @@
       "x": 0,
       "y": 0,
       "z": -1.57
-    }
+    },
+    "light": {
+      "x": 0,
+      "y": 0.5,
+      "z": 0
+    },
+    "embedID": ["7gIEQEacQ2M", "0j012aZN9V4", "M6q4LmftQF8"]
+  },
+  {
+    "title": "Lats",
+    "position": {
+      "x": 0,
+      "y": 1,
+      "z": 0.58
+    },
+    "lookAt": {
+      "x": 0,
+      "y": 0,
+      "z": -1.57
+    },
+    "light": {
+      "x": 0,
+      "y": 0.5,
+      "z": 0
+    },
+    "embedID": ["7gIEQEacQ2M", "0j012aZN9V4", "M6q4LmftQF8"]
+  },
+  {
+    "title": "Rhomboids",
+    "position": {
+      "x": 0,
+      "y": 1,
+      "z": 0.58
+    },
+    "lookAt": {
+      "x": 0,
+      "y": 0,
+      "z": -1.57
+    },
+    "light": {
+      "x": 0,
+      "y": 0.5,
+      "z": 0
+    },
+    "embedID": ["7gIEQEacQ2M", "0j012aZN9V4", "M6q4LmftQF8"]
+  },
+  {
+    "title": "Chest",
+    "position": {
+      "x": 0,
+      "y": 1,
+      "z": 0.58
+    },
+    "lookAt": {
+      "x": 0,
+      "y": 0,
+      "z": -1.57
+    },
+    "light": {
+      "x": 0,
+      "y": 0.5,
+      "z": 0
+    },
+    "embedID": ["eHiIYRpZfXY", "tGXIQR89-JE", "epYvo9YwsGg"]
+  },
+  {
+    "title": "Shoulders",
+    "position": {
+      "x": 0,
+      "y": 1,
+      "z": 0.58
+    },
+    "lookAt": {
+      "x": 0,
+      "y": 0,
+      "z": -1.57
+    },
+    "light": {
+      "x": 0,
+      "y": 0.5,
+      "z": 0
+    },
+    "embedID": ["7gIEQEacQ2M", "0j012aZN9V4", "M6q4LmftQF8"]
+  },
+  {
+    "title": "Triceps",
+    "position": {
+      "x": 0,
+      "y": 1,
+      "z": 0.58
+    },
+    "lookAt": {
+      "x": 0,
+      "y": 0,
+      "z": -1.57
+    },
+    "light": {
+      "x": 0,
+      "y": 0.5,
+      "z": 0
+    },
+    "embedID": ["7gIEQEacQ2M", "0j012aZN9V4", "M6q4LmftQF8"]
+  },
+  {
+    "title": "Quadriceps",
+    "position": {
+      "x": 0,
+      "y": 1,
+      "z": 0.58
+    },
+    "lookAt": {
+      "x": 0,
+      "y": 0,
+      "z": -1.57
+    },
+    "light": {
+      "x": 0,
+      "y": 0.5,
+      "z": 0
+    },
+    "embedID": ["7gIEQEacQ2M", "0j012aZN9V4", "M6q4LmftQF8"]
+  },
+  {
+    "title": "Calves",
+    "position": {
+      "x": 0,
+      "y": 1,
+      "z": 0.58
+    },
+    "lookAt": {
+      "x": 0,
+      "y": 0,
+      "z": -1.57
+    },
+    "light": {
+      "x": 0,
+      "y": 0.5,
+      "z": 0
+    },
+    "embedID": ["7gIEQEacQ2M", "0j012aZN9V4", "M6q4LmftQF8"]
+  },
+  {
+    "title": "Serratus",
+    "position": {
+      "x": 0,
+      "y": 1,
+      "z": 0.58
+    },
+    "lookAt": {
+      "x": 0,
+      "y": 0,
+      "z": -1.57
+    },
+    "light": {
+      "x": 0,
+      "y": 0.5,
+      "z": 0
+    },
+    "embedID": ["7gIEQEacQ2M", "0j012aZN9V4", "M6q4LmftQF8"]
+  },
+  {
+    "title": "Legs",
+    "position": {
+      "x": 0,
+      "y": 1,
+      "z": 0.58
+    },
+    "lookAt": {
+      "x": 0,
+      "y": 0,
+      "z": -1.57
+    },
+    "light": {
+      "x": 0,
+      "y": 0.5,
+      "z": 0
+    },
+    "embedID": ["7gIEQEacQ2M", "0j012aZN9V4", "M6q4LmftQF8"]
+  },
+  {
+    "title": "Glutes",
+    "position": {
+      "x": 0,
+      "y": 1,
+      "z": 0.58
+    },
+    "lookAt": {
+      "x": 0,
+      "y": 0,
+      "z": -1.57
+    },
+    "light": {
+      "x": 0,
+      "y": 0.5,
+      "z": 0
+    },
+    "embedID": ["7gIEQEacQ2M", "0j012aZN9V4", "M6q4LmftQF8"]
+  },
+  {
+    "title": "Hamstrings",
+    "position": {
+      "x": 0,
+      "y": 1,
+      "z": 0.58
+    },
+    "lookAt": {
+      "x": 0,
+      "y": 0,
+      "z": -1.57
+    },
+    "light": {
+      "x": 0,
+      "y": 0.5,
+      "z": 0
+    },
+    "embedID": ["7gIEQEacQ2M", "0j012aZN9V4", "M6q4LmftQF8"]
+  },
+  {
+    "title": "Calves",
+    "position": {
+      "x": 0,
+      "y": 1,
+      "z": 0.58
+    },
+    "lookAt": {
+      "x": 0,
+      "y": 0,
+      "z": -1.57
+    },
+    "light": {
+      "x": 0,
+      "y": 0.5,
+      "z": 0
+    },
+    "embedID": ["7gIEQEacQ2M", "0j012aZN9V4", "M6q4LmftQF8"]
+  },
+  {
+    "title": "Tibialis anterior",
+    "position": {
+      "x": 0,
+      "y": 1,
+      "z": 0.58
+    },
+    "lookAt": {
+      "x": 0,
+      "y": 0,
+      "z": -1.57
+    },
+    "light": {
+      "x": 0,
+      "y": 0.5,
+      "z": 0
+    },
+    "embedID": ["7gIEQEacQ2M", "0j012aZN9V4", "M6q4LmftQF8"]
   }
 ]

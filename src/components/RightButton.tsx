@@ -25,3 +25,5 @@ const RightButton = ({ muscle, handleClick, category }: Props) => {
 };
 
 export default RightButton;
+
+

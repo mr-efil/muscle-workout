@@ -7,6 +7,14 @@ import annotations from "./annotations.json";
 import Title from "./components/Title";
 import BottomTags from "./components/BottomTags";
 import TopTags from "./components/TopTags";
+import VideoSection from "./components/VideoSection";
+
+type SceneConfig = {
+  position: { x: number; y: number; z: number };
+  lookAt: { x: number; y: number; z: number };
+  light: { x: number; y: number; z: number };
+  embedID: string[];
+};
 
 export default function App() {
   const muscleGroups = {
@@ -17,9 +25,15 @@ export default function App() {
 
   const [category, setCategory] = useState("push");
   const [currentMuscle, setCurrentMuscle] = useState("");
-  const [handleChange, setHandleChange] = useState({
+  const [handleChange, setHandleChange] = useState<SceneConfig>({
     position: { x: 0, y: 0.5, z: 1.3 },
     lookAt: { x: 0, y: 0.5, z: 0 },
+    light: {
+      x: 0,
+      y: 0.5,
+      z: 0,
+    },
+    embedID: ["7gIEQEacQ2M", "0j012aZN9V4", "M6q4LmftQF8"],
   });
 
   useEffect(() => {
@@ -39,6 +53,12 @@ export default function App() {
             y: foundMuscle.lookAt.y,
             z: foundMuscle.lookAt.z,
           },
+          light: {
+            x: foundMuscle.light.x,
+            y: foundMuscle.light.y,
+            z: foundMuscle.light.z,
+          },
+          embedID: foundMuscle.embedID as string[],
         });
       }
     }
@@ -115,6 +135,7 @@ export default function App() {
       />
       <BottomTags />
       <TopTags />
+      <VideoSection handleChange={handleChange} />
     </div>
   );
 }

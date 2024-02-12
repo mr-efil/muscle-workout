@@ -10,8 +10,6 @@ gsap.registerPlugin(ScrollTrigger);
 
 const SuperHuman = ({
   region,
-  setIsLoaded,
-
 }: {
   region: string;
   setIsLoaded: (value: boolean) => void;

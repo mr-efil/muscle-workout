@@ -122,7 +122,7 @@
       "y": 0.8,
       "z": -1.3
     },
-    "embedID": ["VAvVpAABrTs", "DXL18E7QRbk", "Sa0sBKUiOvU"]
+    "embedID": ["eHiIYRpZfXY", "tGXIQR89-JE", "epYvo9YwsGg"]
   },
   {
     "title": "Back",
@@ -141,7 +141,7 @@
       "y": 0.5,
       "z": 0
     },
-    "embedID": ["VAvVpAABrTs", "DXL18E7QRbk", "Sa0sBKUiOvU"]
+    "embedID": ["7gIEQEacQ2M", "0j012aZN9V4", "M6q4LmftQF8"]
   },
   {
     "title": "Biceps",
@@ -179,7 +179,7 @@
       "y": -1.6,
       "z": 4.2
     },
-    "embedID": ["0XS0j1Gtobw", "qvX0HM2l1jw", "MfMxT_jXcPE"]
+    "embedID": ["7gIEQEacQ2M", "0j012aZN9V4", "M6q4LmftQF8"]
   },
   {
     "title": "Trapezoid",
@@ -217,7 +217,7 @@
       "y": -1,
       "z": -7.8
     },
-    "embedID": ["12xHxUnBEiI", "pvy7dGScj_0", "BY6DDan3tw4"]
+    "embedID": ["7gIEQEacQ2M", "0j012aZN9V4", "M6q4LmftQF8"]
   },
   {
     "title": "Rhomboids",
@@ -236,7 +236,7 @@
       "y": 4.5,
       "z": -1.5
     },
-    "embedID": ["sTi-5lR4R5o", "Tq8phetLuI8", "o5ZdfBm4dME"]
+    "embedID": ["7gIEQEacQ2M", "0j012aZN9V4", "M6q4LmftQF8"]
   },
   {
     "title": "Rotator Cuffs",
@@ -255,7 +255,7 @@
       "y": 1.7,
       "z": -1.9
     },
-    "embedID": ["mO8YJAxVG2M", "-NA8lUy5_Qc", "SIvDFm7RrBk"]
+    "embedID": ["7gIEQEacQ2M", "0j012aZN9V4", "M6q4LmftQF8"]
   },
   {
     "title": "Erector Spinae",
@@ -274,7 +274,7 @@
       "y": -8.3,
       "z": -10
     },
-    "embedID": ["ZlY9Y_nQ2V8", "sAB0-_svrt0", "2tnATDflg4o"]
+    "embedID": ["7gIEQEacQ2M", "0j012aZN9V4", "M6q4LmftQF8"]
   },
   {
     "title": "Chest",
@@ -293,26 +293,26 @@
       "y": 20,
       "z": 10
     },
-    "embedID": ["rT7DgCr-3pg", "ptpmRrzRtWQ", "QsYre__-aro"]
+    "embedID": ["eHiIYRpZfXY", "tGXIQR89-JE", "epYvo9YwsGg"]
   },
   {
     "title": "Posterior Deltoid",
     "position": {
       "x": 1.14,
       "y": 0.93,
-      "z": -0.6
+      "z": 0.2
     },
     "lookAt": {
       "x": -1.35,
       "y": -0.19,
-      "z": 0.6
+      "z": -0.75
     },
     "light": {
       "x": -3,
       "y": 8,
       "z": -10
     },
-    "embedID": ["zcpYZkBXOxc", "dKluhLck1Zs", "boUVD0pCGCk"]
+    "embedID": ["7gIEQEacQ2M", "0j012aZN9V4", "M6q4LmftQF8"]
   },
   {
     "title": "Lateral Deltoid",
@@ -331,26 +331,26 @@
       "y": -8,
       "z": -10
     },
-    "embedID": ["xyK8UiC-BUw", "3VcKaXpzqRo", "FbWfA_s0XL8"]
+    "embedID": ["7gIEQEacQ2M", "0j012aZN9V4", "M6q4LmftQF8"]
   },
   {
     "title": "Anterior Deltoid",
     "position": {
-      "x": 1,
+      "x": 1.14,
       "y": 0.93,
-      "z": 0.3
+      "z": 0.2
     },
     "lookAt": {
       "x": -1.35,
       "y": -0.19,
-      "z": -1.75
+      "z": -0.75
     },
     "light": {
       "x": -3,
       "y": 8,
       "z": 10
     },
-    "embedID": ["-t7fuZ0KhDA", "LWolYLEelBs", "Ofo2DQdT7DA"]
+    "embedID": ["7gIEQEacQ2M", "0j012aZN9V4", "M6q4LmftQF8"]
   },
   {
     "title": "Triceps Long Head",
@@ -369,7 +369,7 @@
       "y": 1.2,
       "z": -2
     },
-    "embedID": ["r1EYUUydhwo", "CywhB_MNJ6o", "wu2sxJYI3gE"]
+    "embedID": ["7gIEQEacQ2M", "0j012aZN9V4", "M6q4LmftQF8"]
   },
   {
     "title": "Triceps Short Head",
@@ -384,7 +384,7 @@
       "y": 4.5,
       "z": -7.5
     },
-    "embedID": ["hctR7BCmvVs", "tmgfpdpQ5sk", "dwIjcmh-3i8"]
+    "embedID": ["7gIEQEacQ2M", "0j012aZN9V4", "M6q4LmftQF8"]
   },
   {
     "title": "Triceps",
@@ -406,15 +406,15 @@
     "embedID": ["7gIEQEacQ2M", "0j012aZN9V4", "M6q4LmftQF8"]
   },
   {
-    "title": "Glutes",
+    "title": "Quadriceps",
     "position": {
       "x": 0,
-      "y": 0,
+      "y": -0.14,
       "z": -0.87
     },
     "lookAt": {
       "x": 0,
-      "y": -0.1,
+      "y": 1.16,
       "z": 1.67
     },
     "light": {
@@ -422,7 +422,7 @@
       "y": -10.9,
       "z": -10.9
     },
-    "embedID": ["4c1CYsnObAI", "Dtv9Xj5fvgs", "XgekALiC8Ik"]
+    "embedID": ["7gIEQEacQ2M", "0j012aZN9V4", "M6q4LmftQF8"]
   },
   {
     "title": "Calves",
@@ -441,7 +441,7 @@
       "y": 10.5,
       "z": -1.5
     },
-    "embedID": ["-qsRtp_PbVM", "6GLD-krLzlo", "2z6GqMnMh1A"]
+    "embedID": ["7gIEQEacQ2M", "0j012aZN9V4", "M6q4LmftQF8"]
   },
   {
     "title": "Serratus",
@@ -463,63 +463,81 @@
     "embedID": ["7gIEQEacQ2M", "0j012aZN9V4", "M6q4LmftQF8"]
   },
   {
-    "title": "legs",
+    "title": "Legs",
     "position": {
       "x": 0,
-      "y": -0.4,
-      "z": 1
+      "y": 1,
+      "z": 0.58
     },
     "lookAt": {
       "x": 0,
-      "y": -0.5,
-      "z": -0.69
+      "y": 0,
+      "z": -1.57
     },
     "light": {
-      "x": -5,
-      "y": -4.9,
-      "z": 2.9
+      "x": 0,
+      "y": 0.5,
+      "z": 0
     },
-    "embedID": ["H6mRkx1x77k", "JhzXZXCA1zY", "sDMAPXzvjAo"]
+    "embedID": ["7gIEQEacQ2M", "0j012aZN9V4", "M6q4LmftQF8"]
   },
   {
-    "title": "Quadriceps",
-    "position": {
-      "x": 0,
-      "y": -0.56,
-      "z": 0.62
-    },
-    "lookAt": {
-      "x": 0,
-      "y": 1.27,
-      "z": -4.69
-    },
-    "light": {
-      "x": 10,
-      "y": -4.9,
-      "z": 1.9
-    },
-    "embedID": ["KMnp7y6_sMA", "R34Qjj3b-1U", "7uMRxo8BRkM"]
+    "title": "Glutes",
+      "position": {
+        "x": 0,
+        "y": -0.56,
+        "z": 0.62
+      },
+      "lookAt": {
+        "x": 0,
+        "y": 1.27,
+        "z": -4.69
+      },
+      "light": {
+        "x": 10,
+        "y": -4.9,
+        "z": 1.9
+      },
+    "embedID": ["7gIEQEacQ2M", "0j012aZN9V4", "M6q4LmftQF8"]
   },
   {
     "title": "Hamstrings",
     "position": {
       "x": 0,
-      "y": -0.3,
-      "z": -0.87
+      "y": 1,
+      "z": 0.58
     },
     "lookAt": {
       "x": 0,
-      "y": -0.7,
-      "z": 1.67
+      "y": 0,
+      "z": -1.57
     },
     "light": {
-      "x": 10,
-      "y": -10.9,
-      "z": -10.9
+      "x": 0,
+      "y": 0.5,
+      "z": 0
     },
-    "embedID": ["0a_fVS2s4Ho", "2PGC_gmgj30", "R__rtl-wZ0Y"]
+    "embedID": ["7gIEQEacQ2M", "0j012aZN9V4", "M6q4LmftQF8"]
   },
-
+  {
+    "title": "Calves",
+    "position": {
+      "x": 0,
+      "y": 1,
+      "z": 0.58
+    },
+    "lookAt": {
+      "x": 0,
+      "y": 0,
+      "z": -1.57
+    },
+    "light": {
+      "x": 0,
+      "y": 0.5,
+      "z": 0
+    },
+    "embedID": ["7gIEQEacQ2M", "0j012aZN9V4", "M6q4LmftQF8"]
+  },
   {
     "title": "Tibialis anterior",
     "position": {

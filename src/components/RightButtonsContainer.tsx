@@ -1,5 +1,3 @@
-import React from "react";
-import LeftButton from "./LeftButton";
 import RightButton from "./RightButton";
 
 type Props = {

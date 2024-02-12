@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react";
-import CanvasNie from "./components/CanvasNie";
-import LeftButtonsContainer from "./components/LeftButtonsContainer";
-import RightButtonsContainer from "./components/RightButtonsContainer";
-
-import annotations from "./annotations.json";
-import Title from "./components/Title";
-import BottomTags from "./components/BottomTags";
-import TopTags from "./components/TopTags";
-import VideoSection from "./components/VideoSection";
+import CanvasNie from "../components/CanvasNie";
+import LeftButtonsContainer from "../components/LeftButtonsContainer";
+import Title from "../components/Title";
+import RightButtonsContainer from "../components/RightButtonsContainer";
+import BottomTags from "../components/BottomTags";
+import TopTags from "../components/TopTags";
+import VideoSection from "../components/VideoSection";
+import annotations from "../annotations.json";
+import LoadingAnimation from "../components/LoadingAnimation";
 
 type SceneConfig = {
   position: { x: number; y: number; z: number };
@@ -16,7 +16,8 @@ type SceneConfig = {
   embedID: string[];
 };
 
-export default function App() {
+export default function Root() {
+  const [isLoaded, setIsLoaded] = useState(false);
   const muscleGroups = {
     push: [
       "Chest",
@@ -120,42 +121,49 @@ export default function App() {
   };
 
   return (
-    <div className="h-screen w-screen flex items-center justify-between relative px-8">
-      <div className="h-screen w-full fixed top-0 -z-10 hidden lg:block">
-        <CanvasNie
-          handleChange={handleChange}
-          setIsLoaded={function (): void {
-            throw new Error("Function not implemented.");
-          }}
-          isLoaded={false}
-        />
+    <>
+      {" "}
+      {!isLoaded && (
+        <div className="h-screen w-screen flex items-center justify-center">
+          <LoadingAnimation />
+        </div>
+      )}
+      <div className="h-screen w-screen flex items-center justify-between relative px-8">
+        <div className="h-screen w-full fixed top-0 -z-10 hidden lg:block">
+          <CanvasNie handleChange={handleChange} setIsLoaded={setIsLoaded}
+            isLoaded={isLoaded}/>
+        </div>
+        {isLoaded && (
+          <>
+            <Title />
+            <LeftButtonsContainer
+              handleClick={handleCompletionToggle}
+              muscleGroups={
+                category === "push"
+                  ? muscleGroups.push
+                  : category === "pull"
+                  ? muscleGroups.pull
+                  : muscleGroups.legs
+              }
+              completedArray={
+                category === "push"
+                  ? pushCompleted
+                  : category === "pull"
+                  ? pullCompleted
+                  : legsCompleted
+              }
+            />
+            <RightButtonsContainer
+              handleClick={handleCategoryChange}
+              categories={["push", "pull", "legs"]}
+              currentCategory={category}
+            />
+            <BottomTags />
+            <TopTags />
+            <VideoSection handleChange={handleChange} />
+          </>
+        )}
       </div>
-      <Title />
-      <LeftButtonsContainer
-        handleClick={handleCompletionToggle}
-        muscleGroups={
-          category === "push"
-            ? muscleGroups.push
-            : category === "pull"
-            ? muscleGroups.pull
-            : muscleGroups.legs
-        }
-        completedArray={
-          category === "push"
-            ? pushCompleted
-            : category === "pull"
-            ? pullCompleted
-            : legsCompleted
-        }
-      />
-      <RightButtonsContainer
-        handleClick={handleCategoryChange}
-        categories={["push", "pull", "legs"]}
-        currentCategory={category}
-      />
-      <BottomTags />
-      <TopTags />
-      <VideoSection handleChange={handleChange} />
-    </div>
+    </>
   );
 }

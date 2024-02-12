@@ -1,9 +1,9 @@
-import { Stats, OrbitControls, useGLTF, Environment } from "@react-three/drei";
-import { Canvas, useFrame, useThree } from "@react-three/fiber";
-import { useLayoutEffect, useRef } from "react";
-import gsap from "gsap";
+import { OrbitControls } from "@react-three/drei";
+import { Canvas } from "@react-three/fiber";
+import { useRef } from "react";
 import Arena from "./Arena";
-import { useControls } from "leva";
+
+import { OrbitControls as OrbitControlsImpl } from "three-stdlib";
 
 type SceneConfig = {
   position: { x: number; y: number; z: number };
@@ -12,33 +12,16 @@ type SceneConfig = {
   embedID: string[];
 };
 
-const CanvasNie = ({ handleChange }: { handleChange: SceneConfig }) => {
-  const ref = useRef();
-  const {
-    directionalLightPositionX,
-    directionalLightPositionY,
-    directionalLightPositionZ,
-  } = useControls("Directional Light", {
-    directionalLightPositionX: {
-      value: 0,
-      min: -10,
-      max: 10,
-      step: 0.1,
-    },
-    directionalLightPositionY: {
-      value: 10,
-      min: -10,
-      max: 20,
-      step: 0.1,
-    },
-    directionalLightPositionZ: {
-      value: 0,
-      min: -10,
-      max: 10,
-      step: 0.1,
-    },
-  });
-
+const CanvasNie = ({
+  handleChange,
+  setIsLoaded,
+  isLoaded,
+}: {
+  handleChange: SceneConfig;
+  setIsLoaded: (value: boolean) => void;
+  isLoaded: boolean;
+}) => {
+  const ref = useRef<OrbitControlsImpl>(null);
   return (
     <Canvas
       camera={{
@@ -46,18 +29,11 @@ const CanvasNie = ({ handleChange }: { handleChange: SceneConfig }) => {
       }}
       shadows
     >
-      {/* <axesHelper /> */}
       <OrbitControls ref={ref} target={[0, 0.5, 0]} />
-      {/* <color attach="background" args={["#202020"]} /> */}
       <directionalLight
         color={"white"}
         castShadow
         intensity={60}
-        // position={[
-        //   directionalLightPositionX,
-        //   directionalLightPositionY,
-        //   directionalLightPositionZ,
-        // ]}
         position={[
           handleChange.light.x,
           handleChange.light.y,
@@ -65,7 +41,12 @@ const CanvasNie = ({ handleChange }: { handleChange: SceneConfig }) => {
         ]}
       />
       <ambientLight />
-      <Arena controls={ref} handleChange={handleChange} />
+      <Arena
+        controls={ref}
+        handleChange={handleChange}
+        setIsLoaded={setIsLoaded}
+        isLoaded={isLoaded}
+      />
     </Canvas>
   );
 };

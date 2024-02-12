@@ -1,4 +1,3 @@
-import React from "react";
 import YoutubeEmbed from "./YoutubeEmbed";
 
 type SceneConfig = {
@@ -14,7 +13,7 @@ export default function VideoSection({
   handleChange: SceneConfig;
 }) {
   return (
-    <div className="absolute bottom-0 w-full flex justify-evenly items-center">
+    <div className="absolute bottom-8 w-full flex justify-center items-center gap-16 left-0">
       <YoutubeEmbed embedId={handleChange.embedID[0]} />
       <YoutubeEmbed embedId={handleChange.embedID[1]} />
       <YoutubeEmbed embedId={handleChange.embedID[2]} />

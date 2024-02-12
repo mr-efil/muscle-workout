@@ -1,5 +1,3 @@
-import React from "react";
-
 type Props = {
   muscle: string;
   handleClick: (index: number) => void;

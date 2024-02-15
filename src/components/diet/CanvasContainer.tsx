@@ -1,7 +1,6 @@
 import { Canvas } from "@react-three/fiber";
 import SuperHuman from "./SuperHuman";
 import { useControls } from "leva";
-import { OrbitControls } from "@react-three/drei";
 
 const CanvasContainer = ({
   region,

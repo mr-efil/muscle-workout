@@ -1,7 +1,9 @@
 import gsap from "gsap";
-import  { useLayoutEffect } from "react";
+import { useLayoutEffect } from "react";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+import { Link } from "react-router-dom";
 
+import logo from "../../assets/logo-dalga.png";
 gsap.registerPlugin(ScrollTrigger);
 
 function Hero() {
@@ -31,14 +33,24 @@ function Hero() {
   }
 
   return (
-    <div className="first-section h-screen w-full border relative flex justify-center items-start">
-      <h1 className="square text-[13em]">PHANTOM</h1>
+    <div className="first-section h-screen w-full relative flex justify-center items-start">
+      {" "}
+      <Link to={"/"} className="absolute top-6 left-7 z-50">
+        <img
+          src={logo}
+          alt="logo"
+          width={50}
+          height={50}
+          className="object-contain w-16 h-auto "
+        ></img>
+      </Link>
+      <h1 className="square text-[243px] font-black italic">DIET</h1>
       <div className="w-full absolute bottom-0 flex flex-row justify-center items-center">
         <button
-          className="border border-black p-2"
+          className="border border-white px-4 py-3 text-white rounded-xl mb-2 italic font-extralight"
           onClick={scrollToSection}
         >
-          DEVAM
+          CONTINUE
         </button>
       </div>
     </div>

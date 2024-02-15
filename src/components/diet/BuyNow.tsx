@@ -12,45 +12,76 @@ function BuyNow({
   }
 
   return (
-    <div className="third-section h-screen w-full z-[10] relative flex justify-around items-center">
-      <h1 className="absolute top-0 text-[6em] text-white">
-        Upper Body Muscles
+    <div className="third-section h-screen w-full relative  flex justify-around items-center">
+     <h1 className="absolute top-8 text-[6em] text-white font-extrabold italic uppercase">
+        abdominal muscles
       </h1>
-      <div className="absolute left-0 h-full w-1/3 max-w-96 flex flex-col justify-center items-start gap-10">
-        <div className="w-full">
-          <button className="text-white w-full text-3xl flex justify-end">
-            CHEST
-          </button>
-          <div className="w-full h-1 bg-white"></div>
-        </div>
-        <div className="w-full">
-          <button className="text-white w-full text-3xl flex justify-end">
-            CHEST
-          </button>
-          <div className="w-full h-1 bg-white"></div>
-        </div>
-        <div className="w-full">
-          <button className="text-white w-full text-3xl flex justify-end">
-            CHEST
-          </button>
-          <div className="w-full h-1 bg-white"></div>
-        </div>
-      </div>
-
-      <div className="text-white max-w-96 border border-white absolute right-32">
-        <h1>KARIN</h1>
+      <div className="text-white max-w-96  absolute bottom-32 right-8">
         <h2>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged.
+          <span className="font-extralight">
+            {" "}
+            <span className="font-extrabold text-red-600">
+              Optimal Protein Intake:
+            </span>{" "}
+            Protein is essential for muscle repair and growth. Aim to include a
+            source of protein in every meal. Good sources include lean meats
+            (chicken, turkey, beef), fish, eggs, dairy products (milk, yogurt,
+            cheese), legumes (beans, lentils), tofu, tempeh, and seitan.
+          </span>
+          <br></br>
+          <br></br>
+          <span className="font-extralight">
+            {" "}
+            <span className="font-extrabold text-red-600">
+              Essential Fats for Health and Hormone Balance:
+            </span>{" "}
+            Healthy fats are important for overall health and hormone
+            production, which is crucial for muscle building. Include sources of
+            healthy fats such as avocados, nuts, seeds, olive oil, and fatty
+            fish (salmon, mackerel, sardines).
+          </span>
         </h2>
       </div>
-      <div className="w-full absolute bottom-0 flex flex-row justify-center items-center">
-        <button className="border border-black p-2" onClick={scrollToSection}>
-          DEVAM
+      <div className="text-white max-w-96  mt-32 ml-20 absolute top-20 left-1">
+        <h2>
+          <span className="font-extralight">
+            <span className="font-extrabold text-red-600">
+              Hydration for Muscle Function and Recovery:
+            </span>{" "}
+            Proper hydration is essential for muscle function and recovery.
+            Drink plenty of water throughout the day, especially before, during,
+            and after workouts.
+          </span>
+          <br></br>
+          <br></br>
+          <span className="font-extralight">
+            {" "}
+            <span className="font-extrabold text-red-600">
+              Mindful Portion Management:
+            </span>{" "}
+            Pay attention to portion sizes to ensure you're consuming an
+            appropriate amount of calories to support your activity level and
+            muscle-building goals without overeating.
+          </span>
+          <br></br>
+          <br></br>
+          <span className="font-extralight">
+            {" "}
+            <span className="font-extrabold text-red-600">
+              Consistency is Key:
+            </span>{" "}
+            Consistency is key when it comes to diet and exercise. Aim to eat a
+            balanced diet rich in whole, nutrient-dense foods consistently over
+            time to see results in your upper body muscle development.
+          </span>
+        </h2>
+      </div>
+     <div className="w-full absolute bottom-0 flex flex-row justify-center items-center">
+        <button
+          className="border border-white px-4 py-3 text-white rounded-xl mb-2 italic font-extralight"
+          onClick={scrollToSection}
+        >
+          CONTINUE
         </button>
       </div>
     </div>

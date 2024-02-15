@@ -8,6 +8,7 @@ import './index.css'
 import Root from './routes/root.tsx';
 import ErrorPage from './error-page.tsx';
 import Diet from './routes/diet.tsx';
+import BoxGame from './routes/boxgame.tsx';
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
   {
     path: "/diet",
     element: <Diet />,
+  },
+  {
+    path: "/boxgame",
+    element: <BoxGame />,
   },
 ]);
 

@@ -13,14 +13,15 @@ const TopTags = () => {
       ></img>
       <div className="absolute right-7 top-6 flex gap-4">
         <Link to={"/diet"}>
-          <button className="text-xs text-black font-extrabold italic hover:-translate-x-2 transition-transform hover:underline origin-bottom-right duration-150">
+          <button className="text-xs border border-black text-black px-4 py-3 font-extrabold italic hover:-translate-x-2 transition-transform hover:underline origin-bottom-right duration-150 rounded-xl">
             DIET
           </button>
         </Link>
-
-        <button className="text-xs text-black font-extrabold italic hover:-translate-x-2 transition-transform hover:underline origin-bottom-right duration-150">
-          EQUIPMENT
-        </button>
+        <Link to={"/boxgame"}>
+          <button className="text-xs border border-black px-4 py-3 text-black font-extrabold italic hover:-translate-x-2 transition-transform hover:underline origin-bottom-right duration-150 rounded-xl">
+            TRY GAME
+          </button>
+        </Link>
       </div>
     </>
   );

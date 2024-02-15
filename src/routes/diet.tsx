@@ -24,12 +24,13 @@ function Diet() {
           setIsLoaded={setIsLoaded}
           isLoaded={isLoaded}
         />
-      </div>
-
-      <div className="h-screen w-full">
+      </div>{" "}
+      <div className="h-screen w-full relative">
+        {" "}
+       
         <Hero />
       </div>
-      <About setRegion={setRegion} region={region} />
+      <About/>
       <BuyNow setRegion={setRegion} />
       <Bel />
       <Kol />

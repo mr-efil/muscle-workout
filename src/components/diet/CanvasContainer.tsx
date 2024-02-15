@@ -1,7 +1,7 @@
 import { Canvas } from "@react-three/fiber";
 import SuperHuman from "./SuperHuman";
 import { useControls } from "leva";
-
+import { OrbitControls } from "@react-three/drei";
 
 const CanvasContainer = ({
   region,
@@ -50,7 +50,11 @@ const CanvasContainer = ({
     >
       {/* <axesHelper args={[10]} /> */}
       <color attach="background" args={["#202020"]} />
-      <SuperHuman region={region} setIsLoaded={setIsLoaded} isLoaded={isLoaded} />
+      <SuperHuman
+        region={region}
+        setIsLoaded={setIsLoaded}
+        isLoaded={isLoaded}
+      />
       <directionalLight
         color={"white"}
         castShadow
